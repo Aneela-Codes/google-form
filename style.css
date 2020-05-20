@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+main{
+    display: flex;
+
+}
+form{
+    width: 675px;
+}
+
+.heading{
+    font-size: 34px;
+}
+figure img{
+    width: 100px;
+}
+form input{
+    width: 300px;
+    padding: 10px 12px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    margin: 15px 8px;
+}
+form input[type="email"]{
+    width: 635px;
+}
+.info{
+    display: flex;
+}
+p{
+    padding:5px 10px ;
+}
+a{
+    text-decoration: none;
+    padding: 10px 0;
+    color: blue;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 18px;
+    width: 100px;
+    padding: 8px 25px;
+    background-color: #2980b9;
+    border: #2980b9;
+    cursor: pointer;
+    color: white;
+}
+section{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+section img{
+    width: 200px;
+}
